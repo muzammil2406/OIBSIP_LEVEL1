@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(219, 228, 236);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(temp.jpg);
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.box{
+    background-color: rgba(47, 111, 212, 0.898);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(187, 52, 31);
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 5em;
+}
+
+.head{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2.2rem;
+    padding-bottom: 2em;
+}
+
+select{
+    padding: 4px;
+    font-size: 16px;
+    color: rgb(102, 0, 255);
+    font-weight: bold;
+    margin: 4px;
+}
+
+#num,#num1{
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px;
+    color: blue;
+    border: none;
+    border-bottom: 2px solid slategray;
+}
+
+.oup,.inp{
+    padding: 24px 4px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px;
+}
+
+.btn{
+    width: 8em;
+    padding: 6px;
+    margin: 8px;
+    background-color: sandybrown;
+    color: rgb(32, 105, 81);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(89, 65, 243);
+    transition-duration: 0.3s;
+}
+
+.button{
+    display: flex;
+}
