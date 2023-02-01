@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(201, 212, 222);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(gym_bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+html{
+    height: 100%
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 164px;
+    top: 20px;
+    color: rgb(212, 222, 232);
+}
+.left img{
+    width: 100px; 
+}
+.left div{
+    font-size: 4vmin;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 80;
+    text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+}
+.mid{
+    display: block;
+    position: sticky;
+    margin: 20px auto;
+    width: 48%;
+    color: rgb(30, 120, 200);
+}
+.right{
+    display:inline-block ;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: burlywood;
+}
+.navbar{
+    margin: -150px;
+    float: right;
+    list-style-type:none ;
+    padding-right: 150px;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    font-size: 1.5pc;
+}
+
+.navbar li a:hover,
+.navbar li a.active{
+    color: coral;
+    text-decoration: overline;
+}
+
+.btn{
+    margin: 4px 8px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(194,194,194);
+    border: 2px solid white;
+    border-radius: 4px;
+    transition: 0.6s ease;
+    padding: 4px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(99,99,99);
+}
+.container{
+    border: 8px solid rgb(250, 253, 248);
+    margin: 185px 600px;
+    padding: 1px 20px 20px 20px;
+    width: 28%;
+    border-radius: 28px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 280px;
+    padding: 8px;
+    border: 2px solid block;
+    margin: 8px auto;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: 'Baloo 2',cursive;
+}
+.container button{
+    margin: 20px auto;
+    display: block;
+    width: 100px;
+    background-color: cornflowerblue;
+}
